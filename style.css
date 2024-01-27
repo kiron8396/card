@@ -16,4 +16,26 @@ section{
 .off{
     color: green;
 }
-
+.btn-1{
+    background-color: rgb(5, 156, 5);
+    border: none;
+    color: white;
+    padding: 6px 18px;
+    border-radius: 5px;
+}
+.btn-2{
+    background-color: rgb(202, 63, 63);
+    border: none;
+    color: white;
+    padding: 6px 18px;
+    border-radius: 5px;
+}
+.btn-1:hover{
+    background-color: rgb(2, 126, 2);
+}
+.btn-2:hover:hover{
+    background-color: rgb(126, 2, 2);
+}
+.a p {
+    text-decoration: none;
+}
