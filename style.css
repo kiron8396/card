@@ -1,0 +1,10 @@
+section{
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    justify-content: center
+    
+}
+.star{
+    color: chocolate;
+}
