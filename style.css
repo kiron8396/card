@@ -1,6 +1,6 @@
 section{
     display: flex;
-    max-width: 1140px;
+    max-width: 1400px;
     margin: auto;
     justify-content: center
     
@@ -8,3 +8,12 @@ section{
 .star{
     color: chocolate;
 }
+.card-text{
+    text-decoration: line-through; 
+    color: red;
+
+}
+.off{
+    color: green;
+}
+
