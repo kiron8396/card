@@ -1,12 +1,30 @@
-section{
+.contenar{
     display: flex;
     max-width: 1400px;
     margin: auto;
     justify-content: center
     
+    
+    
+}
+section{
+    background-color: white;
+    padding: 20px;
+}
+body{
+    background-color: rgb(247, 226, 200);
+}
+.item{
+    width: 100%;
 }
 .star{
     color: chocolate;
+}
+.price{
+    gap: 5px;
+    
+    margin: auto;
+    justify-content: center;
 }
 .card-text{
     text-decoration: line-through; 
@@ -16,26 +34,55 @@ section{
 .off{
     color: green;
 }
+
 .btn-1{
     background-color: rgb(5, 156, 5);
     border: none;
     color: white;
     padding: 6px 18px;
     border-radius: 5px;
+
 }
+.btn-1:hover{
+    background-color: rgb(3, 104, 3);
+    border: none;
+    color: white;
+    padding: 6px 18px;
+    border-radius: 5px;}
 .btn-2{
-    background-color: rgb(202, 63, 63);
+    background-color: rgb(255, 81, 0);
     border: none;
     color: white;
     padding: 6px 18px;
     border-radius: 5px;
+
 }
-.btn-1:hover{
-    background-color: rgb(2, 126, 2);
-}
-.btn-2:hover:hover{
-    background-color: rgb(126, 2, 2);
-}
-.a p {
+.btn-2:hover{
+    background-color: rgb(131, 41, 0);
+    border: none;
+    color: white;
+    padding: 6px 18px;
+    border-radius: 5px;}
+a:link{
     text-decoration: none;
+}
+
+/* Info page  */
+.info-item{
+    display: flex;
+    gap: 32px;
+}
+.info-price{
+    gap: 5px;
+    
+    margin: auto;
+    
+}
+
+@media only screen and (max-width: 600px){
+    .info-item{
+        flex-direction: column;
+        margin: 0 20px;
+    }
+   
 }
